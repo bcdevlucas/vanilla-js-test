@@ -14,6 +14,10 @@ const doc = document;
  */
 doc.getElementById("app").innerHTML = `
 <h3>Questions!</h3>
+<p>Please answer questions in the questions folder, that way
+we keep everything nice and clean in separate scopes!</p>
+<p>Don't forget to return the result for each question function
+so the answer appears in plaintext below.</p>
 <div>
   <h3>Test answers:</h3>
   <div id="question-1">
